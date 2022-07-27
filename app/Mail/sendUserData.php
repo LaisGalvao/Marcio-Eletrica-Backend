@@ -31,6 +31,6 @@ class sendUserData extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.sendUserData', ['info' => $this->info])->subject("Márcio, um novo cliente entrou em contato");
+        return $this->from('galvaoeletricaresidencial@gmail.com')->view('emails.sendUserData', ['info' => $this->info])->subject("Márcio, um novo cliente entrou em contato");
     }
 }
