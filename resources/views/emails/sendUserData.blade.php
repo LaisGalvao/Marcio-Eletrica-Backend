@@ -21,7 +21,7 @@
             <h2 style="color:#68A35D;text-align:center;">Dados:</h2>
 
             <p style="margin-bottom:10px;color:#ffffff;text-align:center;padding:0 20px;"><span
-                    style="font-weight: 600">Nome:</span> <?php echo $info['dados']; ?></p>
+                    style="font-weight: 600">Nome:</span> <?php echo $info; ?></p>
            {{--  <p style="margin-bottom:10px;color:#ffffff;text-align:center;padding:0 20px;"><span
                     style="font-weight: 600">Documento:</span> <?php echo $info['cpf']; ?>
             </p>
