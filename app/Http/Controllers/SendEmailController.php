@@ -10,7 +10,7 @@ class SendEmailController extends Controller
 {
     public function sendMail(Request $request)
     {
-        Mail::to('laisgbueno62@gmail.com')->send(
+        Mail::to('marcioapgalvao@gmail.com')->send(
             new sendUserData($request->all())
         );
         return response($request);
