@@ -13,24 +13,13 @@
 <body style="background:#f5f4f2">
     <div style="padding:0;margin:0 auto;font-family:Manrope,sans-serif">
         <div
-            style="background-color:#332F27;width:95%;margin:10px auto;max-width:600px;-webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, .1);box-shadow: 0 0 5px 2px rgba(0, 0, 0, .1);">
-
-            <img src="https://app.jade.shinier.com.br/img/LOGO_JADE.f0010ad1.png" alt="Logo AcquaNativa"
-                style="display:block;margin:0 auto;padding-top:32px; height:50px;">
+            style="background-color:#363636;width:95%;margin:10px auto;max-width:600px;-webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, .1);box-shadow: 0 0 5px 2px rgba(0, 0, 0, .1);">
 
             <h2 style="color:#68A35D;text-align:center;">Dados:</h2>
             @foreach ($info as $i)
                 <p style="margin-bottom:10px;color:#ffffff;text-align:center;padding:0 20px;"><span
-                        style="font-weight: 600">Nome:</span> <?php echo $i; ?></p>
+                        style="font-weight: 600"></span> <?php echo $i; ?></p>
             @endforeach
-            {{-- <p style="margin-bottom:10px;color:#ffffff;text-align:center;padding:0 20px;"><span
-                    style="font-weight: 600">Documento:</span> <?php echo $info['cpf']; ?>
-            </p>
-            <p style="margin-bottom:10px;color:#ffffff;text-align:center;padding:0 20px;"><span
-                    style="font-weight: 600">Email:</span> <?php echo $info['email']; ?></p>
-            <p style="margin-bottom:10px;color:#ffffff;text-align:center;padding:0 20px;"><span
-                    style="font-weight: 600">Telefone:</span> <?php echo $info['telephone']; ?>
-            </p> --}}
 
 
             <div style="display: block;text-align: center;padding: 40px 0;background-color: #000000;color: #fff;">
